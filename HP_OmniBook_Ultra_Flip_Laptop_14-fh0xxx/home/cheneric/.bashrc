@@ -115,3 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# vivado
+source /tools/Xilinx/2025.1/Vitis/settings64.sh
+source /tools/Xilinx/2025.1/Vivado/settings64.sh
+source /tools/Xilinx/2025.1/PDM/settings64.sh

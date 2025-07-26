@@ -1,0 +1,6 @@
+[Touchpad pressure override]
+MatchUdevType=touchpad
+MatchName=*SYNA3580:00 06CB:CFD2 Touchpad
+MatchDMIModalias=dmi:*svnHP:*:pvrSBKPF*
+AttrPressureRange=10:1
+AttrPalmPressureThreshold=65535
